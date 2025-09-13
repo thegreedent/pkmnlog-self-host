@@ -1,23 +1,23 @@
-name: Feature Request
+name: Feature/Enhancement
 description: Request a new feature or enhancement.
-title: 'Feature: [Short Description]'
+title: 'Feature/Enhancement: [Short Description]'
 body:
   - type: markdown
     attributes:
       value: |
-        - Feature / Enhancement Request
-  - type: textarea
+        All features and enhancements require the below information to be completed. Incomplete issues will be closed.
+  - type: input
     id: description
     attributes:
       label: Description
-      placeholder: Describe the feature you are requesting.
-  - type: textarea
+      placeholder: Describe the feature/enhancement.
+  - type: input
     id: expected_behaviour
     attributes:
       label: Expected Behaviour
-      placeholder: What do you expect this feature to do?
+      placeholder: Describe the expected behaviour of the new feature/enhancement.
   - type: textarea
     id: proposed_solution
     attributes:
       label: Proposed Solution
-      placeholder: If you have ideas on how to implement this feature, please share them here.
+      placeholder: Document the proposed solution for the new feature/enhancement.
